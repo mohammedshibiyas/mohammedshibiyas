@@ -2,24 +2,25 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # runs daily
+    - cron: "0 0 * * *"   # every day
   workflow_dispatch:
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
 
-      - name: Generate Snake
+      - name: Generate contribution snake
         uses: Platane/snk@v3
         with:
           github_user_name: mohammedshibiyas
           outputs: |
-            dist/github-contribution-grid-snake.svg
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark
 
-      - name: Push Snake
+      - name: Push snake files
         uses: EndBug/add-and-commit@v9
         with:
-          message: "Update snake animation"
+          message: "Update contribution snake"
           add: "dist/*.svg"
