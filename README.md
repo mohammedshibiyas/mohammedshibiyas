@@ -16,4 +16,5 @@ Here are some ideas to get you started:
 -->
 ## 🐍 Contribution Snake
 
-![Snake animation](./dist/github-contribution-grid-snake.svg)
+![Contribution Snake](https://raw.githubusercontent.com/mohammedshibiyas/mohammedshibiyas/main/dist/snake.svg)
+
