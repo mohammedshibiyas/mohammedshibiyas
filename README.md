@@ -14,7 +14,5 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-## 🐍 Contribution Snake
 
-![Contribution Snake](https://raw.githubusercontent.com/mohammedshibiyas/mohammedshibiyas/main/dist/snake.svg)
 
